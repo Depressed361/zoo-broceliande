@@ -1,0 +1,12 @@
+<p>animals works!</p>
+<div class="row">
+ <div *ngFor="let animal  of animalist" style="width: 18rem;">
+   <img [src]="animal.image" class="card-img-top" alt="...">
+   <div class="card-body">
+     <h5 class="card-title">{{animal.name}}</h5>
+     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">découvre Simba</a>
+   </div>
+ </div>
+</div>
+

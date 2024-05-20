@@ -1,0 +1,21 @@
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let rapport of vetoRapport" >
+      <th scope="row">1</th>
+      <td>{{rapport.date}}</td>
+      <td>{{rapport.id}}</td>
+      <td>{{rapport.description}}</td>
+
+    </tr>
+
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<p>articles works!</p>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div  *ngFor="let articles of ThreeArticles" class="col-md-4" >
+      <h2>{{articles.title}}</h2>
+      <p>{{articles.content}} </p>
+      <p><a class="btn btn-secondary" href="#" role="button">Voir les details</a></p>
+    </div>
+
+
+  </div>
+
+  <hr>
+
+</div> <!-- /container -->
